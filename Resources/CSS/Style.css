@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 1px outset black;
+    display: flex;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header #logo {
+    display: flex;
+    align-items: center;
+    color: mediumaquamarine;
+    padding: 5px;
+}
+
+.navigation {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    left: 900px;
+    padding: 10px;
+}
+
+img {
+    padding: 10px 5px 10px 15px;
+}
+
+.navigation a {
+    color: black;
+}
